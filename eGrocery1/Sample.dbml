@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="eGrocery" Class="SampleDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SANJOG;Initial Catalog=eGrocery;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="eGroceryConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Product1" Member="Product1s">
+    <Type Name="Product1">
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Descr" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SKU" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Brand" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QtyRecieved" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QtyRem" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DateReceived" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[User]" Member="Users">
+    <Type Name="User">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

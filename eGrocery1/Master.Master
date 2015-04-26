@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="eGrocery1.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form2" runat="server">
+        <div id="contain">
+            <div id="header">
+            </div>
+
+            <div id="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+
+            </div>
+
+            <div id="footer">
+
+                <p class="style5 style6">
+                </p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

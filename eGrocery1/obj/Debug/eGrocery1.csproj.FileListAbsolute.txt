@@ -1,0 +1,6 @@
+C:\Users\sanjog\Documents\Visual Studio 2013\Projects\eGrocery1\eGrocery1\bin\eGrocery1.dll.config
+C:\Users\sanjog\Documents\Visual Studio 2013\Projects\eGrocery1\eGrocery1\bin\eGrocery1.dll
+C:\Users\sanjog\Documents\Visual Studio 2013\Projects\eGrocery1\eGrocery1\bin\eGrocery1.pdb
+C:\Users\sanjog\Documents\Visual Studio 2013\Projects\eGrocery1\eGrocery1\obj\Debug\eGrocery1.dll
+C:\Users\sanjog\Documents\Visual Studio 2013\Projects\eGrocery1\eGrocery1\obj\Debug\eGrocery1.pdb
+C:\Users\sanjog\Documents\Visual Studio 2013\Projects\eGrocery1\eGrocery1\obj\Debug\eGrocery1.csprojResolveAssemblyReference.cache
